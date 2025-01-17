@@ -3,6 +3,11 @@
     src: local(Helvetica);
 }
 
+@font-face {
+    font-family: Neue Haas Grotesk;
+    src: url("fonts/NeueHaasDisplay-Bold.woff");
+    font-weight: bold;
+}
 
 .main {
     display: flex;
@@ -31,10 +36,22 @@
 }
 
 #erfaring {
-    font-family: "JetBrains Mono", serif;
-    font-weight: normal;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
     flex: 1;
     font-size: 40px;
+}
+
+#Neue {
+    font-family: "Neue Haas Grotesk", sans-serif;
+    font-size: 40px;
+    display: block; /* Ensure the button is displayed as a block element */
+    margin-top: 20px; /* Add margin to create space above the button */
+}
+
+#vareMed {
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
 }
 
 #fadeImage {
@@ -47,6 +64,8 @@
     transition: opacity 2s ease-in-out;
     z-index: 2;
 }
+
+
 
 .modal {
     display: none;

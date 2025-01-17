@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var modal = document.getElementById("minModal");
-    var btn = document.getElementById("openModalBtn");
+    var btn = document.getElementById("Neue");
     var span = document.getElementsByClassName("close")[0];
 
     btn.onclick = function() {
