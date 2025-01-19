@@ -10,10 +10,9 @@
 }
 
 .main {
-    display: flex;
-    height: 150px;
-    width: auto;
-    flex: 1 1 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .info {
@@ -31,22 +30,23 @@
     font-size: 150px;
     width: 300px;
     height: auto;
-    flex: 0.7;
-    padding: 20px;
 }
 
 #erfaring {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
-    flex: 1;
     font-size: 40px;
 }
 
-#Neue {
+#pussyButton {
     font-family: "Neue Haas Grotesk", sans-serif;
     font-size: 40px;
-    display: block; /* Ensure the button is displayed as a block element */
-    margin-top: 20px; /* Add margin to create space above the button */
+    display: block;
+    margin-top: 20px;
+    grid-column: span 2;
+    position: absolute;
+    bottom: 60px;
+    left: 50%; /
 }
 
 #vareMed {
