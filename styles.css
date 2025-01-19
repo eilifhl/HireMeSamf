@@ -60,13 +60,13 @@ a {
     opacity: 1;
 }
 
-#erfaring {
+.erfaring {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 2.8vw;
 }
 
-#pussyButton {
+    #pussyButton {
     font-family: "Neue Haas Grotesk", sans-serif;
     font-size: 40px;
     display: block;
