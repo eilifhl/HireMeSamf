@@ -129,3 +129,8 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
+.footer {
+    text-align: center;
+    font-family: "Neue Haas Grotesk", sans-serif;
+}
